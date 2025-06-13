@@ -2,3 +2,10 @@ site_name: My Docs
 site_url: https://ad83.info
 theme:
   name: material
+
+extra_javascript:
+  - javascripts/toc-toggle.js
+
+extra_css:
+  - stylesheets/toc-toggle.css
+

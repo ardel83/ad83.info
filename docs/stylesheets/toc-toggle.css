@@ -1,0 +1,16 @@
+/* Плавное перемещение боковой панели */
+.md-sidebar--secondary {
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(0);
+}
+
+/* Скрытие TOC по умолчанию на мобильных устройствах */
+@media (max-width: 76.1875em) {
+  .md-sidebar--secondary {
+    transform: translateX(100%);
+  }
+  .toc-icon {
+    display: block !important;
+  }
+}
+
