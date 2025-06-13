@@ -2,13 +2,3 @@ site_name: My Docs
 site_url: https://ad83.info
 theme:
   name: material
-
-extra_javascript:
-  - javascripts/toc-toggle.js
-
-extra_css:
-  - stylesheets/toc-toggle.css
-
-extra_css:
-  - https://fonts.googleapis.com/icon?family=Material+Icons
-
