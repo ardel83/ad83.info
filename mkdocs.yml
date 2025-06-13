@@ -3,3 +3,5 @@ site_url: https://ad83.info
 theme:
   name: material
   language: ru
+  features:
+    - toc.integrate
