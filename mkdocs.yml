@@ -2,3 +2,4 @@ site_name: My Docs
 site_url: https://ad83.info
 theme:
   name: material
+  language: ru
